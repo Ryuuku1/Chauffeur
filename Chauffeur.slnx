@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Chauffeur.Api/Chauffeur.Api.csproj" />
+  <Project Path="src/Chauffeur.Application/Chauffeur.Application.csproj" />
+  <Project Path="src/Chauffeur.Domain/Chauffeur.Domain.csproj" />
+  <Project Path="src/Chauffeur.Infrastructure/Chauffeur.Infrastructure.csproj" />
+</Solution>
