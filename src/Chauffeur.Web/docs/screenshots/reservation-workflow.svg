@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1500' height='900'>
+  <rect width='1500' height='900' fill='#020617'/>
+  <rect x='0' y='0' width='1500' height='80' fill='#0f172a'/>
+  <text x='30' y='50' fill='#fbbf24' font-size='30' font-family='Arial'>Chauffeur Classics - Manager Workflow</text>
+  <rect x='70' y='120' width='1360' height='740' rx='18' fill='#111827' stroke='#334155'/>
+  <text x='100' y='170' fill='white' font-size='34' font-family='Arial'>Reservation workflow</text>
+  <rect x='100' y='205' width='240' height='42' rx='10' fill='#1e40af'/>
+  <text x='125' y='232' fill='white' font-size='20' font-family='Arial'>Filter: Pending</text>
+  <rect x='100' y='275' width='1295' height='78' rx='10' fill='#1f2937' stroke='#374151'/>
+  <text x='125' y='320' fill='#f8fafc' font-size='22' font-family='Arial'>Emma Brooks — Wedding — Jun 14, 2026 — Rolls-Royce — Approved</text>
+  <rect x='100' y='373' width='1295' height='78' rx='10' fill='#1f2937' stroke='#374151'/>
+  <text x='125' y='418' fill='#f8fafc' font-size='22' font-family='Arial'>Ryan Lee — Photoshoot — Jun 14, 2026 — Ferrari 488 — Pending</text>
+  <rect x='1090' y='390' width='130' height='40' rx='8' fill='#15803d'/>
+  <text x='1120' y='416' fill='white' font-size='18' font-family='Arial'>Approve</text>
+  <rect x='1230' y='390' width='140' height='40' rx='8' fill='#b91c1c'/>
+  <text x='1268' y='416' fill='white' font-size='18' font-family='Arial'>Decline</text>
+  <rect x='100' y='500' width='1295' height='320' rx='10' fill='#0f172a' stroke='#334155'/>
+  <text x='125' y='545' fill='white' font-size='28' font-family='Arial'>Upcoming schedule preview</text>
+  <text x='125' y='590' fill='#cbd5e1' font-size='22' font-family='Arial'>Jun 14, 2026 — Emma Brooks (Wedding)</text>
+  <text x='125' y='630' fill='#cbd5e1' font-size='22' font-family='Arial'>Jun 14, 2026 — Ryan Lee (Photoshoot)</text>
+  <text x='125' y='670' fill='#cbd5e1' font-size='22' font-family='Arial'>Apr 10, 2026 — Mia Turner (Corporate)</text>
+</svg>
