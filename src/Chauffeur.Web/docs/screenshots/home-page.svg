@@ -1,0 +1,27 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1500' height='900'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#1e293b'/>
+      <stop offset='100%' stop-color='#020617'/>
+    </linearGradient>
+  </defs>
+  <rect width='1500' height='900' fill='url(#bg)'/>
+  <rect x='0' y='0' width='1500' height='80' fill='#0f172a'/>
+  <text x='30' y='50' fill='#fbbf24' font-size='30' font-family='Arial'>Chauffeur Classics</text>
+  <rect x='1100' y='22' width='120' height='36' rx='18' fill='#334155'/>
+  <rect x='1230' y='22' width='120' height='36' rx='18' fill='#334155'/>
+  <rect x='1360' y='22' width='110' height='36' rx='18' fill='#1d4ed8'/>
+  <rect x='70' y='130' width='1360' height='240' rx='18' fill='#1e293b' stroke='#334155'/>
+  <text x='100' y='190' fill='#fdba74' font-size='20' font-family='Arial'>Premium event mobility platform</text>
+  <text x='100' y='250' fill='white' font-size='46' font-family='Arial'>Book Vintage & Exotic Cars with a Luxury-First Experience</text>
+  <text x='100' y='300' fill='#cbd5e1' font-size='24' font-family='Arial'>Modern booking, transparent pricing, and manager operations in one interface.</text>
+  <rect x='100' y='322' width='170' height='42' rx='10' fill='#ea580c'/>
+  <rect x='285' y='322' width='220' height='42' rx='10' fill='#334155'/>
+  <rect x='520' y='322' width='220' height='42' rx='10' fill='#1e40af'/>
+  <rect x='70' y='410' width='1360' height='200' rx='18' fill='#1e293b' stroke='#334155'/>
+  <text x='100' y='455' fill='white' font-size='30' font-family='Arial'>Must-have capabilities</text>
+  <text x='100' y='500' fill='#86efac' font-size='22' font-family='Arial'>✅ Availability by date</text>
+  <text x='430' y='500' fill='#86efac' font-size='22' font-family='Arial'>✅ Offer request workflow</text>
+  <text x='850' y='500' fill='#86efac' font-size='22' font-family='Arial'>✅ Reservation management</text>
+  <text x='100' y='540' fill='#86efac' font-size='22' font-family='Arial'>✅ Seasonal pricing controls</text>
+</svg>
