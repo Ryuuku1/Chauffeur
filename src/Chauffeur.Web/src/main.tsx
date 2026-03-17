@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from './App';
-import { AppProvider } from './context/AppContext';
-import { installMockApi } from './mocks/mockApi';
-import './styles.css';
-
-installMockApi();
+import { App } from '@/App';
+import '@/i18n';
+import { AppStoreProvider } from '@/state/AppStore';
+import '@/styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <AppProvider>
+    <AppStoreProvider>
       <App />
-    </AppProvider>
+    </AppStoreProvider>
   </React.StrictMode>,
 );

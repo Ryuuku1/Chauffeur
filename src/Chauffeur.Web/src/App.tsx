@@ -1,22 +1,11 @@
-import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { Layout } from './components/Layout';
-import { HomePage } from './pages/HomePage';
-import { CustomerPage } from './pages/CustomerPage';
-import { ManagerPage } from './pages/ManagerPage';
-import { ApiLabPage } from './pages/ApiLabPage';
+import { RouterProvider } from 'react-router-dom';
+import { router } from '@/app/router';
+import { AppErrorBoundary } from '@/shared/ui/AppErrorBoundary';
+import { TenantPresentationBridge } from '@/shared/ui/TenantPresentationBridge';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Layout />,
-    children: [
-      { index: true, element: <HomePage /> },
-      { path: 'customer', element: <CustomerPage /> },
-      { path: 'manager', element: <ManagerPage /> },
-      { path: 'api-lab', element: <ApiLabPage /> },
-      { path: '*', element: <Navigate to="/" replace /> },
-    ],
-  },
-]);
-
-export const App = () => <RouterProvider router={router} />;
+export const App = () => (
+  <AppErrorBoundary>
+    <TenantPresentationBridge />
+    <RouterProvider router={router} />
+  </AppErrorBoundary>
+);
